@@ -1,0 +1,46 @@
+﻿*{
+    font-family: 'Poppins', sans-serif;
+
+    margin: 0px;
+
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Poppins:wght@100;200;400;700 & display=swap');
+
+.imglogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; 
+    margin-top: 5%;
+}
+h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.imgrobo{
+    margin-top: 8px;
+    width: 100%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+}
+
+section > div{
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    border-radius: 10px;
+}
+.imgbictsessao{
+    width:100px;
+    margin-top: 22px;
+}
