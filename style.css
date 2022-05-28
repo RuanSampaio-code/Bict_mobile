@@ -22,6 +22,7 @@ h1{
     margin-top: 8px;
     margin-bottom: 8px;
 }
+
 .imgrobo{
     margin-top: 8px;
     width: 100%;
@@ -30,7 +31,6 @@ h1{
 section{
     display: flex;
     justify-content: center;
-
 }
 
 section > div{
@@ -40,6 +40,7 @@ section > div{
     background-color: gray;
     border-radius: 10px;
 }
+
 .imgbictsessao{
     width:100px;
     margin-top: 22px;
