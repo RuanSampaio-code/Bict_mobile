@@ -1,0 +1,14 @@
+﻿.galery{
+    width: 100%;
+    height: 320px;
+    overflow: scroll;
+}
+.galery .fotos{
+    width: 200%;
+    animation: animacao;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.galery .fotos img{
+    width: 19.9%;
+}
