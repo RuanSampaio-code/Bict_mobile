@@ -1,14 +1,20 @@
-﻿.galery{
-    width: 100%;
-    height: 320px;
-    overflow: scroll;
+﻿*{
+    margin: 0px;
+    padding: 0px;
+
 }
-.galery .fotos{
-    width: 200%;
-    animation: animacao;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+
+.galery{
+    display: flex;
+    width: 360px ;
+    height: 236px ;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
-.galery .fotos img{
-    width: 19.9%;
+.fotos{
+    width: 300%;
+    height: 100%;
+
 }

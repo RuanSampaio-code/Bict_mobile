@@ -23,10 +23,15 @@ h1{
     margin-bottom: 8px;
 }
 
-.imgrobo{
-    margin-top: 8px;
-    width: 100%;
+
+.fotos > div{
+    margin:0px;
+   
+    
 }
+
+
+
 
 section{
     display: flex;
