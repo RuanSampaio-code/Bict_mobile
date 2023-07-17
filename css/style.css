@@ -4,6 +4,7 @@
     margin: 0px;
 
     padding: 0px;
+    box-sizing: border-box
 }
 
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Poppins:wght@100;200;400;700 & display=swap');
@@ -26,19 +27,22 @@ h1{
 
 .fotos > div{
     margin:0px;
+    display: flex;
+    justify-content: center;
+    ;
    
-    
 }
-
-
 
 
 section{
     display: flex;
     justify-content: center;
 }
+section > a {
+    text-decoration: none
+}
 
-section > div{
+section > a > div{
     margin-top: 25px;
     margin-right: 10px;
     width: 100px;
@@ -46,7 +50,7 @@ section > div{
     background-color: gray;
     border-radius: 10px;
 }
-section > div > p{
+section > a > div > p{
     color: rgb(207, 207, 207);
     font-size: 10px;
     text-align: center;
