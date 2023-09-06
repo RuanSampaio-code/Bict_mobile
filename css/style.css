@@ -1,42 +1,95 @@
 ﻿*{
     font-family: 'Poppins', sans-serif;
-
     margin: 0px;
-
     padding: 0px;
     box-sizing: border-box
 }
 
 @import url('https://fonts.googleapis.com/css2? family= Bebas+Neue & family= Poppins:wght@100;200;400;700 & display=swap');
 
-.imglogo{
+#imglogo{
     display: block;
     margin-left: auto;
     margin-right: auto;
     text-align: center; 
-    margin-top: 5%;
+    margin-top: 2%;
 }
+.carousel-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carousel-item{
+   
+    background-color: #333;
+    width: 100%;
+   
+}
+/* Estilize a lista não ordenada (ul) para remover marcadores de lista e preenchimento */
+div ul {
+    display: flex;
+    justify-content:center;
+    list-style: none;
+   
+    
+}
+
+/* Estilize os itens da lista (li) para exibir em linha */
+div li {
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    max-width: 150px;
+}
+
+    /* Estilize os links (a) */
+div a {
+    display: flex;
+    text-decoration: none;
+    padding: 8px; 
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+  
+   
+    
+
+}
+
+    /* Estilize os submenus para que fiquem escondidos por padrão */
+.menu_bar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+}
+
+    /* Ao passar o mouse sobre um item pai (li), exiba o submenu correspondente (ul) */
+.menu_bar li:hover > ul {
+    display: block;
+    z-index: 2;
+    }
 h1{
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 12px;
+    font-size: 20px;
     margin-top: 8px;
     margin-bottom: 8px;
 }
 
-
-.fotos > div{
-    margin:0px;
-    display: flex;
-    justify-content: center;
-    ;
+.fotos  .carrossel{
+   width:100%;
+   height: 300px;
+   border: 4px rgb(223, 198, 193) solid;
+   background-color: #333;
+    
    
 }
 
-
 section{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 section > a {
     text-decoration: none
@@ -45,8 +98,8 @@ section > a {
 section > a > div{
     margin-top: 25px;
     margin-right: 10px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: gray;
     border-radius: 10px;
 }
@@ -72,3 +125,12 @@ section > a > div > p{
 
 
 }
+
+
+footer{
+
+    background-color: rgb(233, 198, 84);
+    height: 64px;
+    margin-top: 64px;
+}
+
